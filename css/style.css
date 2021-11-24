@@ -1,0 +1,198 @@
+/*common css strat*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0F2656;
+}
+/*common css end*/
+
+/*header start*/
+header{
+padding: 20px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid;*/
+	overflow: hidden;
+	
+
+}
+.logo{
+	
+	width: 10%;
+	float: left;
+/*border: 1px solid;*/
+}
+.logo img{
+	width:  100%;
+}
+
+.menu{
+	
+	width: 60%;
+	float: right;
+/*border: 1px solid;*/
+}
+
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 10px;
+	display: inline-block;
+	font-size: 18px;
+	color: #0F2656;
+	text-decoration: none;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+	padding: 20px 0;
+}
+
+.container2 {
+	margin: 0 auto;
+	width: 55%;
+}
+.b_content{
+	text-align: center;
+}
+.container2 h1{
+margin: 0;
+font-size: 70px;
+line-height: 90px;
+}
+
+.blue{
+	color: #008AFF;
+}
+.container2 p{
+margin: 10px 0 20px;
+line-height: 30px;
+
+}
+
+.b_img {
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	width: 80%;
+	
+}
+.b_img img{
+width: 100%;
+}
+
+
+.container3 {
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	padding-top: 100px;
+	
+	overflow: hidden;
+}
+
+.b_content2 {
+	/*border: 1px solid;*/
+	margin-left: 320px;
+	margin-right: 50px;
+	width: 25%;
+	float: left;
+}
+.b_content2 h1{
+	margin-bottom: 10px;
+	text-align: right;
+	font-size: 70px;
+	color: red;
+}
+.b_content2 p{
+	text-align: right;
+}
+
+
+
+
+
+.b_content3 {
+	/*border: 1px solid;*/
+	width: 40%;
+	
+	float: left;
+}
+
+
+.b_content3 h1{
+	
+	font-size: 70px;
+	
+	
+	}
+
+
+	.container4 {
+		margin: 0 auto;
+		padding-top: 30px;
+		padding-bottom: 50px;
+		width: 80%;
+		overflow: hidden;
+}
+
+.service1 {
+	margin-right: 20px;
+	padding: 30px;
+	width: 27%;
+	background-color: #FDEBED;
+float: left;
+}
+
+.s1_img img{
+	width: 100%;
+}
+
+.service2 {
+	margin-right: 20px;
+	padding: 30px;
+	width: 27%;
+	background-color: #EBF9F4;
+float: left;
+}
+
+.s2_img img{
+	width: 100%;
+}
+
+.service3 {
+	padding: 30px;
+	width: 27%;
+	background-color: #FFF7E8;
+	float: left;
+}
+
+.s3_img img{
+	width: 100%;
+}
+/*banner end*/
+
+/*footer start*/
+footer{
+padding: 40px 0;
+color: white;
+	background-color: #0492FF;
+	text-align: center;
+}
+.author{
+	letter-spacing: 7px;
+	font-weight: 600;
+}
+/*footer end*/
